@@ -79,6 +79,9 @@ def analyze_comments(url):
     else:
         overall_sentiment = max(sentiment_counts, key=sentiment_counts.get)
 
+    # Save results to a CSV file
+    pd.DataFrame(results).to_csv('./data/results.csv', sep=';', index=False)
+
     return results, overall_sentiment, page_title
 
 if __name__ == '__main__':
