@@ -24,7 +24,7 @@ To install the Reddit Sentiment Analysis Tool, follow these steps:
 
 https://github.com/joaom02/CP3_AOOP.git
 
-2. Navigate to the project directory and create a virtual environment:
+2. Navigate to the project directory:
 
 cd ./src/
 
